@@ -44,15 +44,15 @@
     </script>
     </center>  -->
 <!-- ___________________________________________________________________ -->
-    <!-- <center>
-        <div id="tt" style = "width:100px; height: 100px;background-color: black;color: aliceblue;position: relative;"><p id="txt" style="position: absolute;text-align:center; left: 45%;top: 25%;">0</p></div>
+    <center style="margin-top:20% ;">
+        <div id="tt" style = "width:100px; height: 100px;background-color: grey;color: rgb(0, 0, 0);position: relative;"><p id="txt" style="position: absolute;text-align:center; left: 45%;top: 25%;">0</p></div>
         <div style="padding: 10px;">
-        <button onclick="chan()">-</button>
-        <button onclick="change()">+</button>
+        <button onclick="chan()"style=padding:5px;width:50px;>-</button>
+        <button onclick="change()"style=padding:5px;width:50px;>+</button>
          </div>
     </center> -->
 
-    <!-- <script>
+    <script>
      let count=0;
      let plus=document.getElementById("txt")
      let col=document.getElementById("tt")
@@ -62,10 +62,12 @@
        plus.innerHTML=count
     }
      if(count>0){
-      col.style.background="green"
+      col.style.background="lightgreen"
+      col.style.color="darkgreen"
     }
      else if(count==0){
-        col.style.background="black"
+        col.style.background="grey"
+           col.style.color="black"
     }
     }
      let de=document.getElementById("txt")
@@ -75,13 +77,15 @@
        plus.innerHTML=count
         }
          if(count<0){
-      col.style.background="red"
+      col.style.background="pink"
+        col.style.color="red"
     }
         else if(count==0){
-        col.style.background="black"
+        col.style.background="grey"
+          col.style.color="black"
     }
     }
-     </script> -->
+     </script>
 
 </body>
 </html> 
